@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Rockers</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -52,9 +52,9 @@ const Home: NextPage = () => {
              </div>
           <div className='pl-10 sm:pl-15 pt-10 sm:pt-15 h-screen bg-[#fef9ef]'>
             <div className='flex flex-col md:flex-row'>
-            <div className='mr-3 text-xl md:text-2xl sm:text-xl'>inhalak</div>
-            <div className='mr-3 text-xl md:text-2xl sm:text-xl'>WIRED</div>
-            <div className='mr-3 text-xl md:text-2xl sm:text-xl'>Ligufa</div>
+            <div className='mr-3 text-xl md:text-2xl lg:text-4xl sm:text-xl'>inhalak</div>
+            <div className='mr-3 text-xl md:text-2xl lg:text-4xl sm:text-xl'>WIRED</div>
+            <div className='mr-3 text-xl md:text-2xl lg:text-4xl sm:text-xl'>Ligufa</div>
             </div>
             <p className='mt-2 md:text-xl '>Magzine energizes people around shared interests, igniting important conversations on the news, politics, style, and culture that drive the world.</p>
             </div>
