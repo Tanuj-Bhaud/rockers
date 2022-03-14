@@ -14,25 +14,25 @@ const Home: NextPage = () => {
         <div className='flex flex-row '>
           <div className='w-1/2 '>
         <div className='h-3/4 flex flex-col items-center justify-center'>
-          <div className='text-2xl md:text-4xl sm:text-2xl pl-20 pb-10 pt-20 overflow-visible'>MAGZINE IS A DESTINATION OF THE WORLDS</div>
+          <div className='text-xl md:text-4xl sm:text-2xl pl-7 sm:pl-20 pb-5 sm:pb-10 sm:pt-20 overflow-visible'>MAGZINE IS A DESTINATION OF THE WORLDS</div>
           <div className='flex flex-col md:flex-row pb-20'>
-            <div className='pl-14 md:pl-20 flex flex-col'>
+            <div className='pl-7 sm:pl-14 md:pl-20 flex flex-col'>
               <div className='font-bold text-2xl md:text-5xl sm:text-2xl border-b-4 border-yellow-400'>1345</div>
               <div className='text-2xl'>New subscribers <br></br> this month</div>
               </div>
-            <div className='pl-14 md:pl-20 flex flex-col'>
+            <div className=' pl-7 sm:pl-14 md:pl-20 flex flex-col'>
             <div className='font-bold text-2xl md:text-5xl sm:text-2xl border-b-4 border-green-600'>342</div>
               <div className='text-2xl'>Fashion and health <br></br> articles released</div></div>
           </div>
           </div>
         <div className='  bg-[#ff6000] h-screen'>
-          <div className='pl-20 pt-3'>
+          <div className=' pl-10 sm:pl-20 pt-3'>
             <div className='flex flex-row bg-[#fef9e]'>
               <div className='flex flex-col'>
             <div className='text-white'>Article . &nbsp; </div>
             <div className='text-white'> 10 June 2020</div>
 
-            <div className='text-white  text-4xl font-bold pt-4 pb-1'>Protection of life and <br />personal liberty</div>
+            <div className='text-white text-xl md:text-4xl sm:text-2xl font-bold pt-4 pb-1'>Protection of life and <br />personal liberty</div>
             </div>
             </div>
 
@@ -42,12 +42,12 @@ const Home: NextPage = () => {
         <div className='w-1/2  bg-[#fef9ef] z-10'>
           <div className='h-3/4'>
              <div className='flex items-center justify-center h-full '>
-               <div className=' h-80 w-64 relative'>
-               <div className='absolute z-0 bg-[#ff6000] h-20 w-20 top-0 right-0'></div>
-               <div className='flex items-center justify-center h-80 w-64'>
-               <div className='flex items-center z-10 rounded-tl-[4rem] rounded-br-[4rem] bg-[#ff6d00] justify-center h-64 w-40 mx-auto '></div>
+               <div className='h-40 w-32 sm:h-80 sm:w-64 relative'>
+               <div className='absolute z-0 bg-[#ff6000] h-10 w-10 sm:h-20 sm:w-20 top-0 right-0'></div>
+               <div className='flex items-center justify-center h-40  w-32 sm:h-80 sm:w-64'>
+               <div className='flex items-center z-10 sm:rounded-tl-[4rem] rounded-tl-[2rem] rounded-br-[2rem] sm:rounded-br-[4rem] bg-[#ff6d00] justify-center h-32 w-20 sm:h-64 sm:w-40 mx-auto '></div>
                </div>
-               <div className='absolute z-0 bg-[#ff8500] h-20 w-20 bottom-0 left-0'></div>
+               <div className='absolute z-0 bg-[#ff8500] h-10 w-10 sm:h-20 sm:w-20 bottom-0 left-0'></div>
                </div></div> 
              </div>
           <div className='pl-20 pt-14 h-screen bg-[#fef9ef]'>
