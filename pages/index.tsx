@@ -14,25 +14,25 @@ const Home: NextPage = () => {
         <div className='flex flex-row '>
           <div className='w-1/2 '>
         <div className='h-3/4 flex flex-col items-center justify-center'>
-          <div className='text-xl md:text-4xl sm:text-2xl pl-7 sm:pl-20 pb-5 sm:pb-10 sm:pt-20 overflow-visible'>MAGZINE IS A DESTINATION OF THE WORLDS</div>
+          <div className='text-xl md:text-4xl lg:text-7xl sm:text-2xl pl-7 sm:pl-12 pb-5 sm:pb-10 sm:pt-20 overflow-visible'>MAGZINE IS A DESTINATION OF THE WORLDS</div>
           <div className='flex flex-col md:flex-row pb-20'>
-            <div className='pl-7 sm:pl-14 md:pl-20 flex flex-col'>
+            <div className=' sm:pl-7 flex flex-col'>
               <div className='font-bold text-2xl md:text-5xl sm:text-2xl border-b-4 border-yellow-400'>1345</div>
               <div className='text-2xl'>New subscribers <br></br> this month</div>
               </div>
-            <div className=' pl-7 sm:pl-14 md:pl-20 flex flex-col'>
+            <div className='sm:pl-7 md:pl-20 flex flex-col'>
             <div className='font-bold text-2xl md:text-5xl sm:text-2xl border-b-4 border-green-600'>342</div>
               <div className='text-2xl'>Fashion and health <br></br> articles released</div></div>
           </div>
           </div>
         <div className='  bg-[#ff6000] h-screen'>
-          <div className=' pl-10 sm:pl-20 pt-3'>
+          <div className=' pl-10 sm:pl-15 pt-10 sm:pt-15'>
             <div className='flex flex-row bg-[#fef9e]'>
               <div className='flex flex-col'>
             <div className='text-white'>Article . &nbsp; </div>
             <div className='text-white'> 10 June 2020</div>
 
-            <div className='text-white text-xl md:text-4xl sm:text-2xl font-bold pt-4 pb-1'>Protection of life and <br />personal liberty</div>
+            <div className='text-white text-xl lg:text-7xl md:text-4xl sm:text-2xl font-bold pt-4 pb-1'>Protection of life and <br />personal liberty</div>
             </div>
             </div>
 
@@ -50,13 +50,13 @@ const Home: NextPage = () => {
                <div className='absolute z-0 bg-[#ff8500] h-10 w-10 sm:h-20 sm:w-20 bottom-0 left-0'></div>
                </div></div> 
              </div>
-          <div className='pl-20 pt-14 h-screen bg-[#fef9ef]'>
+          <div className='pl-10 sm:pl-15 pt-10 sm:pt-15 h-screen bg-[#fef9ef]'>
             <div className='flex flex-col md:flex-row'>
             <div className='mr-3 text-xl md:text-2xl sm:text-xl'>inhalak</div>
             <div className='mr-3 text-xl md:text-2xl sm:text-xl'>WIRED</div>
             <div className='mr-3 text-xl md:text-2xl sm:text-xl'>Ligufa</div>
             </div>
-            <p className='mt-2 '>Magzine energizes people around shared interests, igniting important conversations on the news, politics, style, and culture that drive the world.</p>
+            <p className='mt-2 md:text-xl '>Magzine energizes people around shared interests, igniting important conversations on the news, politics, style, and culture that drive the world.</p>
             </div>
 
             </div>
@@ -66,9 +66,9 @@ const Home: NextPage = () => {
   <div className=" container w-screen mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
     
-      <span className="ml-3 text-xl font-bold">ROCKERS</span>
+      <span className="ml-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">ROCKERS</span>
     </a>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base  justify-center">
       <a className="mr-5 hover:text-gray-900">NEWS</a>
       <a className="mr-5 hover:text-gray-900">FASHION</a>
       <a className="mr-5 hover:text-gray-900">SPORTS</a>
