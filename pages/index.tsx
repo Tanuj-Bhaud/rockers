@@ -16,13 +16,13 @@ const Home: NextPage = () => {
         <div className='h-3/4 flex flex-col items-center justify-center'>
           <div className='text-xl md:text-4xl lg:text-7xl sm:text-2xl pl-7 sm:pl-12 pb-5 sm:pb-10 sm:pt-20 overflow-visible'>MAGZINE IS A DESTINATION OF THE WORLDS</div>
           <div className='flex flex-col md:flex-row pb-20'>
-            <div className=' sm:pl-7 flex flex-col'>
+            <div className='pl-5 sm:pl-7 flex flex-col'>
               <div className='font-bold text-2xl md:text-5xl sm:text-2xl border-b-4 border-yellow-400'>1345</div>
-              <div className='text-2xl'>New subscribers <br></br> this month</div>
+              <div className='text-2xl lg:text-4xl'>New subscribers <br></br> this month</div>
               </div>
-            <div className='sm:pl-7 md:pl-20 flex flex-col'>
+            <div className='pl-5 sm:pl-7 md:pl-20 flex flex-col'>
             <div className='font-bold text-2xl md:text-5xl sm:text-2xl border-b-4 border-green-600'>342</div>
-              <div className='text-2xl'>Fashion and health <br></br> articles released</div></div>
+              <div className='text-2xl lg:text-4xl'>Fashion and health <br></br> articles released</div></div>
           </div>
           </div>
         <div className='  bg-[#ff6000] h-screen'>
