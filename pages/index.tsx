@@ -25,7 +25,7 @@ const Home: NextPage = () => {
               <div className='text-2xl'>Fashion and health <br></br> articles released</div></div>
           </div>
           </div>
-        <div className='  bg-[#ff6000]'>
+        <div className='  bg-[#ff6000] h-screen'>
           <div className='pl-20 pt-3'>
             <div className='flex flex-row bg-[#fef9e]'>
               <div className='flex flex-col'>
@@ -50,13 +50,13 @@ const Home: NextPage = () => {
                <div className='absolute z-0 bg-[#ff8500] h-20 w-20 bottom-0 left-0'></div>
                </div></div> 
              </div>
-          <div className='pl-20 pt-14'>
-            <div className='flex flex-row'>
+          <div className='pl-20 pt-14 h-screen bg-[#fef9ef]'>
+            <div className='flex flex-col md:flex-row'>
             <div className='mr-3 text-xl md:text-2xl sm:text-xl'>inhalak</div>
             <div className='mr-3 text-xl md:text-2xl sm:text-xl'>WIRED</div>
             <div className='mr-3 text-xl md:text-2xl sm:text-xl'>Ligufa</div>
             </div>
-            <p className='mt-2'>Magzine energizes people around shared interests, igniting important conversations on the news, politics, style, and culture that drive the world.</p>
+            <p className='mt-2 '>Magzine energizes people around shared interests, igniting important conversations on the news, politics, style, and culture that drive the world.</p>
             </div>
 
             </div>
