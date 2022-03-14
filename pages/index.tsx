@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main className="">
         <div className='flex flex-row '>
           <div className='w-1/2 '>
-        <div className='h-3/4 '>
+        <div className='h-3/4 flex flex-col items-center justify-center'>
           <div className='text-2xl md:text-4xl sm:text-2xl pl-20 pb-10 pt-20 overflow-visible'>MAGZINE IS A DESTINATION OF THE WORLDS</div>
           <div className='flex flex-col md:flex-row pb-20'>
             <div className='pl-14 md:pl-20 flex flex-col'>
