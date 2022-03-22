@@ -19,13 +19,13 @@ const Home: NextPage = () => {
               </span>
             </a>
             <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto  md:mr-auto">
-              <a className="mr-5 hover:text-gray-900">NEWS</a>
-              <a className="mr-5 hover:text-gray-900">FASHION</a>
-              <a className="mr-5 hover:text-gray-900">SPORTS</a>
-              <a className="mr-5 hover:text-gray-900">PSTCHOLOGY</a>
+              <a href="#news" className="mr-5 hover:text-gray-900">NEWS</a>
+              <a href="#blog" className="mr-5 hover:text-gray-900">BlOG</a>
+              <a href="#fashion" className="mr-5 hover:text-gray-900">FASHION</a>
+              <a href="#career" className="mr-5 hover:text-gray-900">CAREER</a>
             </nav>
-            <a className="mt-4 inline-flex items-center border-0 py-1 px-3 text-base text-black  underline focus:outline-none md:mt-0">
-              Sign Up Now
+            <a href="#subscribe" className="mt-4 inline-flex items-center border-0 py-1 px-3 text-base text-black  underline focus:outline-none md:mt-0">
+              Subscribe us
             </a>
           </div>
         </header>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <div className="mb-2 flex flex-row ">
             <div className="w-1/2 ">
               <div className="flex h-3/4 flex-col items-center justify-center">
-                <div className="overflow-visible  pl-7 pb-5 text-lg pt-[12rem] sm:pl-12 sm:pb-10 sm:pt-40 sm:text-2xl md:text-4xl lg:text-7xl">
+                <div id="news" className="overflow-visible  pl-7 pb-5 text-lg pt-[12rem] sm:pl-12 sm:pb-10 sm:pt-40 sm:text-2xl md:text-4xl lg:text-7xl">
                   MAGZINE IS A DESTINATION OF THE WORLDS
                 </div>
                 <div className="flex flex-col pb-20 md:flex-row">
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
                     <div className="border-b-4 border-green-600 text-2xl font-bold sm:text-2xl md:text-5xl">
                       342
                     </div>
-                    <div className="text-xl sm:text-2xl lg:text-4xl">
+                    <div  className="text-xl sm:text-2xl lg:text-4xl">
                       Fashion and health <br></br> articles released
                     </div>
                   </div>
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               <div className="mb-2 h-[48%] sm:h-1/3 bg-[#ff6000] ">
                 <div className=" sm:pl-15 sm:pt-15 pl-6 pt-6">
                   <div className="bg-[#fef9e] flex flex-row">
-                    <div className="flex flex-col">
+                    <div className="flex flex-col" id="blog">
                       <div className="text-white">Article . &nbsp; </div>
                       <div className="text-white"> 10 June 2020</div>
 
@@ -109,7 +109,7 @@ const Home: NextPage = () => {
         </div>
 
 
-        <div className='w-screen lg:flex'>
+        <div id="fashion" className='w-screen lg:flex'>
         <div className="mt-[180px] sm:mt-24 flex  w-screen">
           <div className=" m-5 w-1/2 bg-white">
      
@@ -161,7 +161,7 @@ const Home: NextPage = () => {
           </div>
           </div>
 
-        <div className="h-[200px] w-screen pt-[30px] bg-black">
+        <div className="h-[200px] w-screen pt-[30px] bg-black" id="subscribe">
           <div className='bg-[#FF8517] mb-10 rounded-md appearance-none text-white pl-6 text-xl sm:text-2xl mt-10 mx-auto h-[200px] flex-col  w-4/5 flex justify-center items-center'>
             Stay updated with our weekly newsletter
             <div className='flex flex-row justify-center items-center'>
@@ -174,7 +174,7 @@ const Home: NextPage = () => {
 
       <footer className="mt-20 bg-[#FEF9EF] w-screen text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+    <div id="career" className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
        
         <span className="ml-3 text-xl">Rockers</span>
