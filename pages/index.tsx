@@ -29,11 +29,11 @@ const Home: NextPage = () => {
             </a>
           </div>
         </header>
-        <div className="mb-2">
+        <div className="mb-2 w-screen">
           <div className="mb-2 flex flex-row ">
             <div className="w-1/2 ">
               <div className="flex h-3/4 flex-col items-center justify-center">
-                <div className="overflow-visible pl-7 pb-5 text-xl sm:pl-12 sm:pb-10 sm:pt-20 sm:text-2xl md:text-4xl lg:text-7xl">
+                <div className="overflow-visible  pl-7 pb-5 text-lg pt-[12rem] sm:pl-12 sm:pb-10 sm:pt-40 sm:text-2xl md:text-4xl lg:text-7xl">
                   MAGZINE IS A DESTINATION OF THE WORLDS
                 </div>
                 <div className="flex flex-col pb-20 md:flex-row">
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
                     <div className="border-b-4 border-yellow-400 text-2xl font-bold sm:text-2xl md:text-5xl">
                       1345
                     </div>
-                    <div className="text-2xl lg:text-4xl">
+                    <div className="text-xl sm:text-2xl lg:text-4xl">
                       New subscribers <br></br> this month
                     </div>
                   </div>
@@ -49,14 +49,14 @@ const Home: NextPage = () => {
                     <div className="border-b-4 border-green-600 text-2xl font-bold sm:text-2xl md:text-5xl">
                       342
                     </div>
-                    <div className="text-2xl lg:text-4xl">
+                    <div className="text-xl sm:text-2xl lg:text-4xl">
                       Fashion and health <br></br> articles released
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="mb-2 h-1/3 bg-[#ff6000] ">
-                <div className=" sm:pl-15 sm:pt-15 pl-10 pt-10">
+              <div className="mb-2 h-[48%] sm:h-1/3 bg-[#ff6000] ">
+                <div className=" sm:pl-15 sm:pt-15 pl-6 pt-6">
                   <div className="bg-[#fef9e] flex flex-row">
                     <div className="flex flex-col">
                       <div className="text-white">Article . &nbsp; </div>
@@ -72,9 +72,9 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="z-10 w-1/2 bg-[#fef9ef]">
+            <div className="z-10  w-1/2 bg-[#fef9ef]">
               <div className="h-3/4">
-                <div className="flex h-full items-center justify-center ">
+                <div className="flex h-full items-center justify-center sm:pt-20 ">
                   <div className="relative h-40 w-32 sm:h-80 sm:w-64">
                     <div className="absolute top-0 right-0 z-0 h-10 w-10 bg-[#ff6000] sm:h-20 sm:w-20"></div>
                     <div className="z-10 flex h-40 w-32 items-center  justify-center sm:h-80 sm:w-64">
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="sm:pl-15 sm:pt-15 mb-2 h-1/3 bg-[#fef9ef] pl-10 pt-10 ">
+              <div className="sm:pl-15 sm:pt-15 mb-2 h-[48%] sm:h-1/3 bg-[#fef9ef] pl-6 pt-6 ">
                 <div className="flex flex-col md:flex-row">
                   <div className="mr-3 text-xl sm:text-xl md:text-2xl lg:text-4xl">
                     inhalak
@@ -107,64 +107,72 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="mt-24  flex w-screen flex-row ">
-          <div className=" m-5 w-1/4 bg-white">
-            <div className="flex flex-col">
+
+
+        <div className='w-screen lg:flex'>
+        <div className="mt-[180px] sm:mt-24 flex  w-screen">
+          <div className=" m-5 w-1/2 bg-white">
+     
+        
               <img className="" src="s1.jpg" />
-              <h3 className="mt-4 text-3xl font-bold">
+              <h3 className="mt-4 text-lg sm:text-3xl font-bold">
                 Exhibition unzips lodwig sernening scrupt items
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Possimus error vero esse
               </p>
+           
             </div>
-          </div>
-          <div className=" m-5 w-1/4 bg-white">
-            <div className="flex flex-col">
-              <div className="bg-[#FF7300]  p-4 text-4xl font-bold text-white">
+         
+          <div className=" m-5 w-1/2 bg-white">
+          
+              <div className="bg-[#FF7300]  p-4 text-xl sm:text-4xl font-bold text-white">
                 Fashion you can buy, but style you possess. The key to style is
                 learning who you are, which takes years. There's no how-to road
-                map to style. It's about self expression and, above all,
+                map to style. It's about yourself and, above all,
                 attitude.
               </div>
-            </div>
-            <h3 className="mt-4 text-3xl font-bold">Iris Apfel</h3>
+           
+            <h3 className="mt-4 text-lg sm:text-3xl font-bold">Iris Apfel</h3>
             <p>Elegant story for the issue</p>
           </div>
-          <div className=" m-5 flex w-1/4 flex-col bg-white">
+          </div>
+          <div className="mt-6 sm:mt-24  flex w-screen">
+          <div className=" m-5 flex w-1/2 flex-col bg-white">
             <img src="s2.jpg" />
-            <h3 className="mt-4 text-3xl font-bold">
+            <h3 className="mt-4 text-lg sm:text-3xl font-bold">
               James Valerie and Sasha Govanni
             </h3>
             <p>Elegant story for the issue</p>
           </div>
 
-          <div className=" m-5 w-1/4 bg-white">
-            <div className="bg-[#FF7300] p-4 text-4xl font-bold text-white">
+          <div className=" m-5 w-1/2 bg-white">
+            <div className="bg-[#FF7300] p-4 text-xl sm:text-4xl font-bold text-white">
               We all need a splash of bad taste–it's hearty, it's healthy, it's
               physical. I think we could use more of it. No taste is what I'm
               against.
             </div>
-            <h3 className="mt-4 text-3xl font-bold">
+            <h3 className="mt-4 text-lg sm:text-3xl font-bold">
               Exhibition unzips lodwig sernening scrupt items
             </h3>
             <p>Elegant story for the issue</p>
           </div>
-        </div>
+          </div>
+          </div>
 
         <div className="h-[200px] w-screen pt-[30px] bg-black">
-          <div className='bg-[#FF8517] mb-10 rounded-md appearance-none text-white text-2xl mt-10 mx-auto h-[200px] flex-col  w-4/5 flex justify-center items-center'>
+          <div className='bg-[#FF8517] mb-10 rounded-md appearance-none text-white pl-6 text-xl sm:text-2xl mt-10 mx-auto h-[200px] flex-col  w-4/5 flex justify-center items-center'>
             Stay updated with our weekly newsletter
             <div className='flex flex-row justify-center items-center'>
    
-              <input placeholder='Enter your Email' className='placeholder:text-black placeholder:text-sm pl-2 pb-2 bg-[#fffdf6] bg-opacity-25 border border-white rounded-full  mt-6'  />
-              <button className='bg-black text-white rounded-full text-xs w-20 h-10 mt-5 ml-2'>Subscribe</button>
+              <input placeholder='Enter your Email' className='placeholder:text-black placeholder:sm:text-sm placeholder:text-[0.65rem] pl-2 pb-2 bg-[#fffdf6] bg-opacity-25 border border-white rounded-full w-[110.5px] sm:w-full  mt-6'  />
+              <button className='bg-black mr-2  text-white rounded-full text-[0.75rem]  w-16 h-8 sm:w-20 sm:h-10 mt-5 ml-1'>Subscribe</button>
             </div>
             </div></div>
       </main>
 
-      <footer className="mt-20 bg-[#FEF9EF] text-gray-600 body-font">
+      <footer className="mt-20 bg-[#FEF9EF] w-screen text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
